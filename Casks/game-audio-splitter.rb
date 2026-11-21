@@ -12,7 +12,7 @@ cask "game-audio-splitter" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Game Audio Splitter.app"
 
